@@ -1,0 +1,5 @@
+fastmcp[server]
+playwright
+pypdf
+requests
+ratelimit

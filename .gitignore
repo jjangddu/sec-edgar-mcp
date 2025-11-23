@@ -1,0 +1,14 @@
+# 가상환경 폴더 제외
+.venv/
+venv/
+env/
+
+# PyCharm 설정 파일 제외
+.idea/
+
+# 파이썬 컴파일 파일 제외
+__pycache__/
+*.pyc
+
+# 운영체제 임시 파일 제외
+.DS_Store
