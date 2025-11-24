@@ -120,6 +120,7 @@ async def download_sec_filing(cik: str, year: int, filing_type: str, output_dir_
     # 2. 우회용 파일(403 에러가 발생시 주는파일)
 
     fallback_filename = "amzn-20231231.htm"
+    existing_file_path = os.path.join(HTML_DIR, "amzn_test", fallback_filename)
 
     try:
         print(f"Attempting download for CIK: {cik}...")
